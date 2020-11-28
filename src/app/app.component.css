@@ -7,13 +7,7 @@ p {
     width: 100%;
     color:black;
 }
-.taskbar{
-    position: absolute;
-    bottom: 0;
-    background-color:violet;
-    height: 200px;
-    width: 100%;
-}
+
 .tbor{
     border: violet;
     border-radius: 2px;

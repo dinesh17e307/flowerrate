@@ -1,0 +1,6 @@
+.taskbar{
+    position: absolute;
+    background-color:violet;
+    height: 200px;
+    width: 100%;
+}
