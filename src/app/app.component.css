@@ -6,10 +6,8 @@ p {
     height: 120px;
     width: 100%;
     color:black;
-    font-size: 25px;
     text-align: center;
 }
-
 .tbor{
     border: violet;
     border-radius: 2px;
