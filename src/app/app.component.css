@@ -1,25 +1,40 @@
-p {
+p{
   font-family: Lato;
 }
 .toolbar{
     background-color:violet;
-    height: 120px;
+    height: fit-content;
     width: 100%;
     color:black;
-    text-align: center;
+     text-align: center;
+}
+
+.tbor{
+    border: violet;
+    border-radius: 2px;
+}
+.col{
+    background-color: yellowgreen;
 }
 .tab{
-    text-align: center;
+  text-align: center;
     font-weight: lighter;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
 }
 
+
 .add{
     position: absolute;
-    top:60px;
-    left: 600px;
+    top:520px;
+    left: 10px;
     background-color: hotpink;
     height: 450px;
     width: 900px;
+}
+.cen{
+  text-align: center;
+}
+.si{
+
 }
