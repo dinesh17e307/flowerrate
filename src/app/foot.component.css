@@ -1,7 +1,8 @@
 .taskbar{
     position: absolute;
+    font-size: 35px;
     background-color:violet;
-    height: 200px;
+    height: 400px;
     width: 100%;
 }
 .btn-facebook {color:#fff!important; background-color:#3b5998!important;}
