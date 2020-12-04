@@ -25,7 +25,13 @@ p{
     font-style: italic;
 }
 
-
+.div{
+   box-sizing: content-box;  
+  width: 600px;
+  height: 100px;
+  padding: 30px;  
+  border: 1px solid blue;
+}
 .add{
     position: absolute;
     top:520px;
