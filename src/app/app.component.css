@@ -24,7 +24,10 @@ p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
 }
-
+.lefu{
+  top: 0px;
+  float:right;
+}
 .div{
    box-sizing: content-box;  
   width: 600px;
