@@ -34,6 +34,7 @@ p{
   height: 200px;
   padding: 30px;  
   border: 1px solid blue;
+  background-color: lightseagreen;
 }
 .back{
    box-sizing: content-box;  
