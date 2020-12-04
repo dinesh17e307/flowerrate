@@ -23,6 +23,7 @@ p{
     font-weight: lighter;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
+    background-color: lightgreen;
 }
 .lefu{
   float:right;
@@ -33,6 +34,14 @@ p{
   height: 200px;
   padding: 30px;  
   border: 1px solid blue;
+}
+.back{
+   box-sizing: content-box;  
+  width: 900px;
+  height: 200px;
+  padding: 30px;  
+  border: 1px solid blue;
+  background-color: yellow;
 }
 a:hover{
   font-size: 20px;
