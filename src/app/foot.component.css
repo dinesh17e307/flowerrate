@@ -17,7 +17,11 @@
   height: 800px;
   border: 1px solid blue;
   background-color:lightslategray;
-  background-image: url(https://i0.wp.com/www.additudemag.com/wp-content/uploads/2020/06/summer-plans-GettyImages-505125698.jpg);
+  background-image: url(https://images.all-free-download.com/images/graphiclarge/spellbook_03_hd_pictures_168366.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
+  opacity: 1;
+}
+.new{
+  color: rgb(231, 220, 220);
 }
