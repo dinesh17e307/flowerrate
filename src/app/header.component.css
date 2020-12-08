@@ -1,0 +1,9 @@
+.prim{
+  color: black;
+  padding: 20px;
+}
+a:hover{
+  background-color: rgb(235, 238, 240);
+  color: red;
+  font-size: 60px;
+}

@@ -11,20 +11,3 @@
 .btn-linkedin {color:#fff!important;background-color:#007bb6!important;}
 .btn-twitter {color:#fff!important;background-color:#55acee!important;}
 .btn-mail {color:#fff!important;background-color:#512DA8!important;}
-.news{
-   box-sizing: content-box;  
-  width: 100%;
-  height: 800px;
-  border: 1px solid blue;
-  background-color:lightslategray;
-  background-image: url(https://images.all-free-download.com/images/graphiclarge/spellbook_03_hd_pictures_168366.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  opacity: 1;
-}
-.new{
-  color: rgb(231, 220, 220);
-}
-.vdo{
-  float: right;
-}
