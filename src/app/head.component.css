@@ -5,7 +5,7 @@
 a:hover{
   background-color: rgb(235, 238, 240);
   color: red;
-  font-size: 60px;
+  font-size: 30px;
 }
 a:active{
   color:green;
@@ -85,4 +85,7 @@ p{
 }
 .vdo{
   float: right;
+}
+.tut{
+  right: 200px;
 }
