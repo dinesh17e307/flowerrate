@@ -8,4 +8,5 @@ import { Component, VERSION } from '@angular/core';
 export class HeadComponent  {
   name = 'Angular ' + VERSION.major;
   date=new Date();
+  opened=false;
 }

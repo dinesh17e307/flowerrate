@@ -7,6 +7,8 @@ import{BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
 import{MatToolbarModule} from '@angular/material/toolbar';
 import { YouTubePlayerModule } from "@angular/youtube-player";
+import {MatSidenavModule} from '@angular/material/sidenav';
+
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
@@ -15,7 +17,7 @@ import { HeadComponent } from './head.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule,BrowserAnimationsModule,MatListModule
-  ,MatButtonModule,MatToolbarModule ,YouTubePlayerModule],
+  ,MatButtonModule,MatToolbarModule ,YouTubePlayerModule,MatSidenavModule],
   declarations: [ AppComponent, HelloComponent,FootComponent,HeadComponent ,
   ],
   bootstrap:    [ AppComponent ]

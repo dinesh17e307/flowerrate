@@ -2,6 +2,21 @@
   color: black;
   padding: 20px;
 }
+.mat-sidenav-container{
+  height: 100%;
+}
+.mat-sidenav,mat-sidenav-content{
+  padding: 16px;
+}
+.mat-sidenav{
+  background-color:red ;
+  width:500px ;
+}
+ @media (min-width:450px){
+  .mat-sidenav{
+    display:none;
+  }
+}
 a:hover{
   background-color: rgb(235, 238, 240);
   color: red;
