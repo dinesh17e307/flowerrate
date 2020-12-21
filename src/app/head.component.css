@@ -12,7 +12,10 @@
   background-color:gainsboro;
   width:200px ;
 }
- @media (min-width:900px){
+.hidden{
+  display: none;
+}
+ /* @media (min-width:900px){
   .mat-sidenav{
     display:none;
   }
@@ -26,7 +29,7 @@
   text-align: center;
   font-size: 20px;
 }
-}
+} */
 .sid{
   margin: 20px;
   padding: 2px;

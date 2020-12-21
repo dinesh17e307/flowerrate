@@ -1,5 +1,9 @@
 <mat-sidenav-container>
-  <mat-sidenav mode="side" [(opened)]="opened" #drawer >
+  <mat-sidenav #drawer 
+  [ngClass]="{hidden:!(isHandset|async)!.matches}"  fixedInViewport="false" 
+  [attr.role]="isHandset ?'dialog':'navigation'"
+  [mode]="!(isHandset | async)!.matches?'over':'side'"
+  [opened]="!(isHandset | async)!.matches">
     <mat-toolbar color="primary"> <button (click)="tog" color="primary" type="button" >  <mat-icon>menu</mat-icon> </button > <span>Apllication</span></mat-toolbar>
   <table class="sid" cellpadding="9px"> <tr><td><a href="">Home</a><br></td></tr>
    
