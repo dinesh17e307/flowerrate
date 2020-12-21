@@ -9,13 +9,27 @@
   padding: 16px;
 }
 .mat-sidenav{
-  background-color:red ;
-  width:500px ;
+  background-color:gainsboro;
+  width:200px ;
 }
- @media (min-width:450px){
+ @media (min-width:900px){
   .mat-sidenav{
     display:none;
   }
+}
+@media(max-width:900px){
+  
+.tol{
+  display: none;
+}
+.button{
+  text-align: center;
+  font-size: 20px;
+}
+}
+.sid{
+  margin: 20px;
+  padding: 2px;
 }
 a:hover{
   background-color: rgb(235, 238, 240);

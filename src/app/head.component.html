@@ -1,11 +1,18 @@
-<!-- <mat-sidenav-container>
-  <mat-sidenav mode="side" opened>sidenav</mat-sidenav>
+<mat-sidenav-container>
+  <mat-sidenav mode="side" [(opened)]="opened" #drawer >
+    <mat-toolbar color="primary"> <button (click)="tog" color="primary" type="button" >  <mat-icon>menu</mat-icon> </button > <span>Apllication</span></mat-toolbar>
+  <table class="sid" cellpadding="9px"> <tr><td><a href="">Home</a><br></td></tr>
+   
+   <tr><td><a href="">About</a><br></td></tr>
+  <tr><td><a href="">COntact us</a><br></td></tr>
+  <tr><td><a href="">Projects</a><br></td></tr>
+  <tr><td><a href="">Log in</a><br></td></tr>
+   <tr><td><a href="">LOgout</a><br></td></tr></table>
+  </mat-sidenav>
     <mat-sidenav-content>
-      home  <button (click)="opened=!opened">toogle</button> -->
+     <!-- <button  (click)="opened=!opened">toogle</button> -->
     
-  
-  
-  
+   <table class="tol"><tr><td>home</td><td>about</td><td>projects</td><td>contact us</td></tr></table>
   <nav class="toolbar">
 <h1 class="cen">சத்தியமங்கலம்
   மலர் விலை பட்டியல்</h1>
@@ -104,6 +111,6 @@
      </div>
     </div>
 </div>
-<!-- </mat-sidenav-content>
+</mat-sidenav-content>
  
-</mat-sidenav-container> -->
+</mat-sidenav-container>

@@ -8,6 +8,7 @@ import { MatButtonModule } from '@angular/material/button';
 import{MatToolbarModule} from '@angular/material/toolbar';
 import { YouTubePlayerModule } from "@angular/youtube-player";
 import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatIconModule} from '@angular/material/icon';
 
 
 import { AppComponent } from './app.component';
@@ -17,7 +18,7 @@ import { HeadComponent } from './head.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule,BrowserAnimationsModule,MatListModule
-  ,MatButtonModule,MatToolbarModule ,YouTubePlayerModule,MatSidenavModule],
+  ,MatButtonModule,MatToolbarModule ,YouTubePlayerModule,MatSidenavModule,MatIconModule],
   declarations: [ AppComponent, HelloComponent,FootComponent,HeadComponent ,
   ],
   bootstrap:    [ AppComponent ]
