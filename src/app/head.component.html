@@ -4,19 +4,28 @@
   [attr.role]="isHandset ?'dialog':'navigation'"
   [mode]="!(isHandset | async)!.matches?'over':'side'"
   [opened]="!(isHandset | async)!.matches">
-    <mat-toolbar color="primary"> <button (click)="tog" color="primary" type="button" >  <mat-icon>menu</mat-icon> </button > <span>Apllication</span></mat-toolbar>
-  <table class="sid" cellpadding="9px"> <tr><td><a href="">Home</a><br></td></tr>
-   
-   <tr><td><a href="">About</a><br></td></tr>
-  <tr><td><a href="">COntact us</a><br></td></tr>
-  <tr><td><a href="">Projects</a><br></td></tr>
-  <tr><td><a href="">Log in</a><br></td></tr>
-   <tr><td><a href="">LOgout</a><br></td></tr></table>
+    
+  <mat-nav-list>
+    <a  mat-list-item href="">home</a>
+     <a  mat-list-item href="">projects</a>
+      <a  mat-list-item href="">about</a>
+       <a  mat-list-item href="">contact us</a>
+        <a  mat-list-item href="">login</a>
+         <a  mat-list-item href="">logout</a>
+  </mat-nav-list>
   </mat-sidenav>
     <mat-sidenav-content>
-     <!-- <button  (click)="opened=!opened">toogle</button> -->
+    <mat-toolbar color="primary"> <button type="button" aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle()" *ngIf="(isHandset | async)!.matches" >  <mat-icon aria-label="Side nav toggle icon">menu</mat-icon> </button > <span>Apllication</span>
+      <span class="spacer"></span>
+    <a  href="">home</a>
+     <a  href="">projects</a>
+      <a  href="">about</a>
+       <a   href="">contact us</a>
+        <a   href="">login</a>
+         <a  href="">logout</a>
+  </mat-toolbar>
     
-   <table class="tol"><tr><td>home</td><td>about</td><td>projects</td><td>contact us</td></tr></table>
+  
   <nav class="toolbar">
 <h1 class="cen">சத்தியமங்கலம்
   மலர் விலை பட்டியல்</h1>

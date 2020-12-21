@@ -13,11 +13,7 @@ export class HeadComponent  {
   constructor(private breakpointObserver:BreakpointObserver){}
  
   date=new Date();
-  opened=true;
 
 
-tog(){
-   
-    alert(this.opened)
-}
+
 }
