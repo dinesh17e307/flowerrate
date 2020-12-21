@@ -2,13 +2,13 @@
   color: black;
   padding: 20px;
 }
-.mat-sidenav-container{
+sidenav-container{
   height: 100%;
 }
-.mat-sidenav,mat-sidenav-content{
+sidenav,mat-sidenav-content{
   padding: 16px;
 }
-.mat-sidenav{
+.sidenav{
   background-color:gainsboro;
   width:200px ;
 }
@@ -25,21 +25,6 @@
   text-decoration: none;
 }
 
- @media (min-width:400px){
-  .mat-sidenav{
-    display:none;
-  }
-}
-@media(max-width:400px){
-  
-.tol{
-  display: none;
-}
-.button{
-  text-align: center;
-  font-size: 20px;
-}
-}
 .sid{
   margin: 20px;
   padding: 2px;
@@ -125,6 +110,7 @@ p{
 }
 .vdo{
   float: right;
+   cursor: move;
 }
 .tut{
   right: 200px;

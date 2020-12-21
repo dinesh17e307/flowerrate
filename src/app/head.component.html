@@ -1,7 +1,8 @@
-<mat-sidenav-container>
+<mat-sidenav-container class="sidenav-container">
   <mat-sidenav #drawer 
+  class="sidenav"
   [ngClass]="{hidden:!(isHandset|async)!.matches}"  fixedInViewport="false" 
-  [attr.role]="isHandset ?'dialog':'navigation'"
+  [attr.role]="!isHandset ?'dialog':'navigation'"
   [mode]="!(isHandset | async)!.matches?'over':'side'"
   [opened]="!(isHandset | async)!.matches">
     
@@ -15,8 +16,8 @@
   </mat-nav-list>
   </mat-sidenav>
     <mat-sidenav-content>
-    <mat-toolbar color="primary"> <button type="button" aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle()" *ngIf="(isHandset | async)!.matches" >  <mat-icon aria-label="Side nav toggle icon">menu</mat-icon> </button > <span>Apllication</span>
-      <span class="spacer"></span>
+    <mat-toolbar color="primary"> <button type="button"  mat-icon-button (click)="drawer.toggle()" *ngIf="(isHandset | async)!.matches" >  <mat-icon>menu</mat-icon> </button > <span>Apllication</span>
+      <span  class="spacer "></span>
     <a  href="">home</a>
      <a  href="">projects</a>
       <a  href="">about</a>
@@ -24,7 +25,7 @@
         <a   href="">login</a>
          <a  href="">logout</a>
   </mat-toolbar>
-    
+   
   
   <nav class="toolbar">
 <h1 class="cen">சத்தியமங்கலம்
@@ -116,7 +117,7 @@
       <li><h3>Angular Latest Version is 11 </h3></li>
     </ol>
     
-     <div class="vdo">
+     <div class="vdo" cdkDrag>
        <h1 style="color:red">LIVE NEWS</h1>
      <youtube-player 
   videoId="Vq-9xWMiiVQ" >
@@ -124,6 +125,7 @@
      </div>
     </div>
 </div>
+ <ng-content></ng-content>
 </mat-sidenav-content>
  
 </mat-sidenav-container>

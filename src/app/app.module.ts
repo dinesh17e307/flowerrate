@@ -9,7 +9,7 @@ import{MatToolbarModule} from '@angular/material/toolbar';
 import { YouTubePlayerModule } from "@angular/youtube-player";
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatIconModule} from '@angular/material/icon';
-
+import {DragDropModule} from '@angular/cdk/drag-drop';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
@@ -18,7 +18,7 @@ import { HeadComponent } from './head.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule,BrowserAnimationsModule,MatListModule
-  ,MatButtonModule,MatToolbarModule ,YouTubePlayerModule,MatSidenavModule,MatIconModule],
+  ,MatButtonModule,MatToolbarModule ,YouTubePlayerModule,MatSidenavModule,MatIconModule,DragDropModule],
   declarations: [ AppComponent, HelloComponent,FootComponent,HeadComponent ,
   ],
   bootstrap:    [ AppComponent ]
